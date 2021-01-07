@@ -157,8 +157,54 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
-
+.sideMenus{
+    width:30%;
+    height:100%;
+    left:-2000px;
+    position: absolute;
+    top:0;
+    z-index: 99;
+    background-color:rgba(51, 51, 51,0.9);
+}
+.sideMenus ul{
+    /* background-color:blue; */
+    margin-top:40%;
+    list-style-type: none;
+}
+.sideMenus ul li{
+    margin:20px;
+}
+.sideMenus ul li a{
+    font-family:"avenir";
+    color:#ffffb3;
+    font-size:20px;
+    letter-spacing:10px;
+    font-weight: bold;
+}
+.sideMenus ul li span{
+    position: relative;
+    /* background-color:green; */
+    top:-10px;
+    font-size:9px;
+    left:10px;
+    color:#ffffb3;
+    font-family: "avenir";
+}
+.closeButton{
+    /* background-color:black; */
+    margin-top:15%;
+    text-align: right;
+}
+.closeButton img{
+    margin-right: 20px;
+}
+.closeButton img:hover{
+    cursor:pointer;
+}
+a.active{
+    /* background-color: aqua; */
+    color:#c06326 !important;
+}
 /*==== Media Queries =====*/
 
 @media only screen and (max-width: 600px) {
@@ -222,7 +268,18 @@ header{
         width: 100%;
         text-align: center;
     }
-   
+    .sideMenus{
+        width:100%;
+       
+    }
+    .sideMenus ul{
+        /* background-color:blue; */
+        margin-top:40%;
+        list-style-type: none;
+    }
+    .sideMenus ul li{
+        margin:20px;
+    }
   
   }
 

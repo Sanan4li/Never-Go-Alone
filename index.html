@@ -8,6 +8,16 @@
   
 </head>
 <body>
+    <div class="sideMenus">
+        <div class="closeButton">
+            <img src="images/close-button.png" width="40">
+        </div>
+        <ul>
+            <li><a class="active" href="#">CANDLE</a></li>
+            <li><a href="#">GO-MASK</a>  <span>COMING SOON</span></li>
+            <li><a href="#">SANITIZER</a><span>COMING SOON</span></li>
+        </ul>
+    </div>
     <header>
        <div class="menu">
           <div class="shopIconDiv">
@@ -56,6 +66,18 @@
     <div class="nothing">
 
     </div>
+
+    <script>
+        var sideMenus = document.querySelector(".sideMenus");
+        var sideMenuButton = document.querySelector(".shopIconDiv");
+        var closeButton = document.querySelector(".closeButton");
+            sideMenuButton.addEventListener("click", function(){
+                sideMenus.style.left = "0px";
+            });
+            closeButton.addEventListener("click", function(){
+                sideMenus.style.left = "-2000px";
+            })
+    </script>
 </body>
 </html>
 
