@@ -1,0 +1,204 @@
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+  }
+@font-face {
+    font-family: cardinal;
+    src: url(../fonts/fontawesome-webfont.ttf);
+  }
+body{
+    padding:0;
+    margin:0;
+    /* background:gray; */
+    background:url(../images/splashbackground.jpg);
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+/*===== Header Styles === */
+header{
+    /* background:blue; */
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display:flex;
+    justify-content:space-between;
+    font-family: "avenir";
+    font-size: 12px;
+    color:#ffffb3;
+}
+.menu{
+    /* background:green; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:7%;
+
+}
+.menu .shopTextDiv a{
+    color: #ffffb3;
+    letter-spacing: 3px;
+}
+.middleLogo p{
+    letter-spacing: 12px;
+}
+.cartItems{
+    /* background:blue; */
+    margin-right: 10px;
+}
+.cartItems p {
+    letter-spacing:5px;
+}
+.cartItems p a{
+    color:#ffffb3;
+    border:1px solid rgba(255, 255, 179, 0.5);
+    border-radius: 20px;
+    padding:4px;
+    padding-left:7px;
+    margin:0;
+}
+
+/*===== main area === */
+.rotatedLogo {
+    text-align: center;
+    /* background:blue; */
+    margin-top:5%;
+}
+.accesoriesDiv{
+    margin-top: 5%;
+}
+
+.accesoriesDiv p {
+    font-family: "avenir";
+    font-size:33px;
+    color:#ffffb3;
+    font-weight: bold;
+    line-height: 40px;
+    width:55%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    letter-spacing:10px;
+}
+.goodHealthDiv p{
+    /* background:blue; */
+    width:36%;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: "cardinal";
+    text-align: center;
+    color: rgba(255, 255, 179, 0.8);
+    font-size:22px;
+}
+.january{
+    margin-top:-20px;
+}
+.inputDiv{
+    /* background:green; */
+    min-height: 50px;
+    display:flex;
+    margin-top:50px;
+    align-items:center;
+}
+.inputDiv form{
+    /* background:blue; */
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inputDiv form input[type="email"]{
+    padding:15px;
+    background:none;
+    width:60%;
+    border:1px solid rgba(255, 255, 179, 0.8);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color:#ffffb3;
+}
+.inputDiv form input[type="email"]:focus{
+  outline:none;
+  color:#ffffb3;
+  /* background:blue; */
+}
+.inputDiv form input[type="email"]::placeholder{
+    color: rgba(255, 255, 179, 0.6);
+}
+.inputDiv form input[type="submit"]{
+    padding:17px;
+    background:none;
+    width:28%;
+    margin-left:-5px;
+    color:#ffffb3;
+    background-color: #b34700;
+    border:none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.inputDiv form input[type="submit"]:hover{
+  cursor:pointer;
+}
+
+.iconsDiv{
+    /* background:blue; */
+    margin-top:28%;
+    display:flex;
+}
+.nothing{
+    height:50px;
+    /* background-color: aqua; */
+}
+.icons{
+    /* background:greenyellow; */
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*==== Media Queries =====*/
+
+@media only screen and (max-width: 600px) {
+    header {
+      background-color: lightblue;
+      width:98%;
+    }
+    .menu{
+        /* background:green; */
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        width:7%;
+    
+    }
+    .menu .shopTextDiv a{
+       
+    }
+    .middleLogo p{
+        display:none;
+    }
+    .cartItems{
+        background:blue;
+       margin-right: 0;
+    }
+    .cartItems p {
+   
+    }
+    .cartItems p a{
+        
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
