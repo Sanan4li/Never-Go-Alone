@@ -117,9 +117,7 @@ header{
 }
 
 .inputDiv form input[type="email"]{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+   
     padding:15px;
     background:none;
     width:60%;
@@ -142,6 +140,9 @@ header{
     width:28%;
     margin-left:-5px;
     color:#ffffb3;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background-color: #b34700;
     border:none;
     border-top-right-radius: 30px;
