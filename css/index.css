@@ -7,7 +7,7 @@
     src: url(../fonts/fontawesome-webfont.ttf);
   }
 body{
-    width:100%;
+    height: 100vh;
     padding:0;
     margin:0;
     /* background:gray; */
@@ -169,7 +169,7 @@ header{
 .sideMenus{
     width:30%;
     height:100%;
-    left:-500px;
+    left:-1500px;
     position: fixed;
 
     top:0;
