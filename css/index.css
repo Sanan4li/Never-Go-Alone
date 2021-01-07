@@ -162,34 +162,68 @@ header{
 /*==== Media Queries =====*/
 
 @media only screen and (max-width: 600px) {
+  
     header {
-      background-color: lightblue;
+      /* background-color: lightblue; */
       width:98%;
     }
     .menu{
         /* background:green; */
         display:flex;
         align-items: center;
-        justify-content:space-between;
-        width:7%;
+        justify-content:space-around;
+        width:30%;
     
     }
-    .menu .shopTextDiv a{
-       
-    }
+   
     .middleLogo p{
         display:none;
     }
     .cartItems{
-        background:blue;
-       margin-right: 0;
+        width: 25%;
+        /* background:blue; */
+       margin-right: 5%;
     }
-    .cartItems p {
+    .rotatedLogo{
+        /* background:gray; */
+        width: 100%;
+    }
+    .accesoriesDiv{
+        /* background:blue; */
+        width: 100%;
+    }
+    .accesoriesDiv p{
+        width: 100%;
+        /* background:aqua; */
+    }
+    .goodHealthDiv{
+        /* background:blue; */
+        width: 100%;
+    }
+    .goodHealthDiv p{
+        /* background:gray; */
+        width: 90%;
+        margin-left:none;
+        margin-right: none;
+    }
+    .inputDiv{
+        width: 100%;
+        /* background:gainsboro; */
+    }
+    .inputDiv form{
+        width: 100%;
+    }
+    .iconsDiv{
+        width: 100%;
+        /* background:rgb(58, 58, 52); */
+
+    }
+    .icons{
+        width: 100%;
+        text-align: center;
+    }
    
-    }
-    .cartItems p a{
-        
-    }
+  
   }
 
 
