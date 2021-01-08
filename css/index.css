@@ -13,7 +13,7 @@ body{
     /* background:gray; */
     background:url(../images/splashbackground.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+   
 
 }
 a{
@@ -145,13 +145,14 @@ header{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-color: #b34700;
+    background-color: #D16432;
     border:none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 .inputDiv form input[type="submit"]:hover{
   cursor:pointer;
+  background-color: #c35d2e;
 }
 
 .iconsDiv{
@@ -217,7 +218,7 @@ header{
 }
 a.active{
     /* background-color: aqua; */
-    color:#c06326 !important;
+    color:#D16432 !important;
 }
 
 @-webkit-keyframes rotation {
@@ -231,6 +232,12 @@ a.active{
 
 /*==== Media Queries =====*/
 
+
+@media screen and (min-width: 1500px) {
+    body {
+        background-size: cover;
+    }
+  }
 @media only screen and (max-width: 600px) {
   
     header {
