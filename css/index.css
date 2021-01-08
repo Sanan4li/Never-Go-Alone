@@ -13,6 +13,8 @@ body{
     /* background:gray; */
     background:url(../images/splashbackground.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 a{
     text-decoration: none;
