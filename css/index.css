@@ -240,9 +240,11 @@ a.active{
 }
 .policyLinks a{
     margin:5px;
-    color: #ffffb3;
+    color: #FCD298;
     font-family: "avenir";
 }
+
+
 
 
 @-webkit-keyframes rotation {

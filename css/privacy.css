@@ -163,6 +163,94 @@ a.active{
 }
 
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #613410;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border:1px solid #613410;
+    width: 33%;
+  }
+  ul li{
+      color:#613410;
+      font-family: "avenir";
+  }
+.singleLink{
+    font-weight: bold;
+    text-decoration: underline;
+    color:black;
+}
+ 
+
+
+
+  
+@media screen and (min-width: 1500px) {
+    body {
+        background-size: cover;
+    }
+  }
+@media only screen and (max-width: 600px) {
+  
+    header {
+      /* background-color: lightblue; */
+      width:98%;
+    }
+    .menu{
+        /* background:green; */
+        display: -webkit-flex;
+        display:flex;
+        -webkit-align-items:center;
+        align-items: center;
+        justify-content:space-around;
+        -webkit-justify-content: space-around;
+        width:30%;
+        
+    }
+   
+    .middleLogo p{
+        display:none;
+    }
+    .cartItems{
+        width: 25%;
+        /* background:blue; */
+       margin-right: 5%;
+    }
+
+    .iconsDiv{
+        width: 100%;
+        /* background:rgb(58, 58, 52); */
+
+    }
+    .icons{
+        width: 100%;
+        text-align: center;
+    }
+    .sideMenus{
+        width:100%;
+       
+    }
+    .sideMenus ul{
+        /* background-color:blue; */
+        margin-top:40%;
+        list-style-type: none;
+    }
+    .sideMenus ul li{
+        margin:20px;
+    }
+    .privacyDiv{
+        /* background-color:blue; */
+       
+        width:100%;
+      
+    }
+  }
+
 
 
 
