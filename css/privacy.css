@@ -176,6 +176,9 @@ table {
     border:1px solid #613410;
     width: 33%;
   }
+  .cookieTable th, td{
+      width: 25%;
+  }
   ul li{
       color:#613410;
       font-family: "avenir";
@@ -184,6 +187,15 @@ table {
     font-weight: bold;
     text-decoration: underline;
     color:black;
+}
+ul{
+    list-style-type: disc;
+}
+ul li{
+    margin-top:5px;
+}
+.nested{
+    list-style-type: lower-roman;
 }
  
 
@@ -250,7 +262,61 @@ table {
       
     }
   }
+  @media only screen and (max-width: 900px) {
+  
+    header {
+      /* background-color: lightblue; */
+      width:98%;
+    }
+    .menu{
+        /* background:green; */
+        display: -webkit-flex;
+        display:flex;
+        -webkit-align-items:center;
+        align-items: center;
+        justify-content:space-around;
+        -webkit-justify-content: space-around;
+        width:30%;
+        
+    }
+   
+    .middleLogo p{
+        display:none;
+    }
+    .cartItems{
+        width: 25%;
+        /* background:blue; */
+       margin-right: 5%;
+    }
 
+    .iconsDiv{
+        width: 100%;
+        /* background:rgb(58, 58, 52); */
+
+    }
+    .icons{
+        width: 100%;
+        text-align: center;
+    }
+    .sideMenus{
+        width:100%;
+       
+    }
+    .sideMenus ul{
+        /* background-color:blue; */
+        margin-top:40%;
+        list-style-type: none;
+    }
+    .sideMenus ul li{
+        margin:20px;
+    }
+    .privacyDiv{
+        /* background-color:blue; */
+       
+        width:100%;
+      
+    }
+  }
 
 
 
