@@ -41,20 +41,33 @@ header{
     display: -webkit-flex;
     align-items: center;
     -webkit-align-items:center;
-    justify-content:space-between;
-    -webkit-justify-content: space-between;
+    /* justify-content:space-between; */
+    /* -webkit-justify-content:space-between; */
     width:7%;
 
+}
+.shopIconDiv{
+    padding:3px;
+    /* background:aqua; */
+}
+.shopTextDiv{
+    padding:3px;
+    padding-left:10%;
+    /* background:black; */
 }
 .menu .shopTextDiv a{
     color: #ffffb3;
     letter-spacing: 3px;
 }
+.middleLogo{
+    /* background:#383333; */
+    margin-right: 4%;
+}
 .middleLogo p{
     letter-spacing: 12px;
 }
 .cartItems{
-    /* background:blue; */
+    /* background:rgb(173, 173, 233); */
     margin-right: 10px;
 }
 .cartItems p {
@@ -72,11 +85,15 @@ header{
 /*===== main area === */
 .rotatedLogo {
     text-align: center;
-    /* background:blue; */
+    /* background:rgb(59, 59, 71); */
     margin-top:2%;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .rotatedLogo img{
     margin-top:9%;
+    /* background:rgb(255, 255, 255); */
     -webkit-animation: rotation 6s infinite linear;
 }
 .accesoriesDiv{
@@ -84,6 +101,7 @@ header{
 }
 
 .accesoriesDiv p {
+    /* background:gray; */
     font-family: "avenir";
     font-size:33px;
     color:#ffffb3;
@@ -168,14 +186,12 @@ header{
     display:flex;
     display: -webkit-flex;
 }
-.nothing{
-    height:20px;
-    /* background-color: aqua; */
-}
+
 .icons{
     /* background:greenyellow; */
     width: 10%;
     margin-left: auto;
+    text-align: center;
     margin-right: auto;
 }
 .sideMenus{
@@ -236,6 +252,7 @@ a.active{
     padding:5px;
     /* background-color:aqua; */
     text-align: center;
+    margin-bottom: 20px;
    
 }
 .policyLinks a{
@@ -263,6 +280,12 @@ a.active{
     body {
         background-size: cover;
     }
+    .menu{
+        width:5%;
+    }
+    .accesoriesDiv p{
+        width: 50%;
+    }
   }
 @media only screen and (max-width: 600px) {
   
@@ -271,14 +294,14 @@ a.active{
       width:98%;
     }
     .menu{
-        /* background:green; */
+        /* background:rgb(187, 230, 187); */
         display: -webkit-flex;
         display:flex;
         -webkit-align-items:center;
         align-items: center;
         justify-content:space-around;
         -webkit-justify-content: space-around;
-        width:30%;
+        width:25%;
         
     }
    

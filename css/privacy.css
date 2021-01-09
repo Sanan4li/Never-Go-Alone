@@ -175,6 +175,7 @@ table {
     padding: 8px;
     border:1px solid #613410;
     width: 33%;
+    font-family: "avenir";
   }
   .cookieTable th, td{
       width: 25%;
