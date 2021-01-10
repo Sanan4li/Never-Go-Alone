@@ -367,6 +367,11 @@ a.active{
        /* background:blue; */
        width:100%;
    }
+   .middleLogo p{
+       letter-spacing:11px;
+       /* background:green; */
+   }
+   
    .cartItems{
        display:none;
    }
@@ -376,6 +381,10 @@ a.active{
     }
     .verticalLogo{
         display:none;
+        width:0;
+    }
+    .testing{
+        width:0;
     }
     .cartItems{
         width: 25%;
@@ -388,9 +397,14 @@ a.active{
        
     }
     .rotatedLogo{
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top:15%;
+        /* background:blue; */
+    }
+    .rotatedLogo img{
+        width:200px;
     }
     .accesoriesDiv{
         margin-top:18%;
@@ -403,6 +417,7 @@ a.active{
         font-size:20px;
         letter-spacing:2px;
         text-align: center;
+        line-height: 25px;
     }
     .goodHealthDiv{
         margin-top:5%;
