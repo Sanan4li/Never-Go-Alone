@@ -47,9 +47,9 @@
        </div>
     </div>
     <div class="accesoriesDiv">
-        <p>
+        <h3>
             THE ACCESORIES COLLECTION FOR TOMORROW'S WORLD.
-        </p>
+        </h3>
     </div>
     <div class="goodHealthDiv">
         <p>
@@ -90,6 +90,15 @@
    
 
     <script>
+        window.onscroll = function(){
+           let position = window.pageYOffset;
+          if(position>80){
+              document.querySelector(".middleLogo").style.opacity = "0";
+          }
+          if(position<80){
+            document.querySelector(".middleLogo").style.opacity = "1";
+          }
+        }
         var sideMenus = document.querySelector(".sideMenus");
         var sideMenuButton = document.querySelector(".shopIconDiv");
         var closeButton = document.querySelector(".closeButton");
