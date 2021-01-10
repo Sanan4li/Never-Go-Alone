@@ -400,14 +400,14 @@ a.active{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top:15%;
+        margin-top:10%;
         /* background:blue; */
     }
     .rotatedLogo img{
         width:200px;
     }
     .accesoriesDiv{
-        margin-top:18%;
+        margin-top:15%;
         /* background:blue; */
         width: 100%;
     }
@@ -420,7 +420,7 @@ a.active{
         line-height: 25px;
     }
     .goodHealthDiv{
-        margin-top:5%;
+        margin-top:3%;
         /* background:blue; */
         width: 100%;
     }
