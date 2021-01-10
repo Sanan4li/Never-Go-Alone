@@ -409,24 +409,27 @@ a.active{
     .accesoriesDiv{
         margin-top:15%;
         /* background:blue; */
-        width: 100%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .accesoriesDiv h3{
         width: 100%;
         /* background:aqua; */
-        font-size:20px;
+        font-size:17px;
         letter-spacing:2px;
         text-align: center;
         line-height: 25px;
     }
     .goodHealthDiv{
-        margin-top:3%;
+        margin-top:1%;
         /* background:blue; */
         width: 100%;
     }
     .goodHealthDiv p{
         /* background:gray; */
         width: 90%;
+        font-size:15px;
         margin-left:none;
         margin-right: none;
     }
