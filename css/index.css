@@ -65,7 +65,7 @@ header{
 }
 .middleLogo p{
     transition: 1s;
-    display:none;
+    /* display:none; */
     letter-spacing: 12px;
 }
 .cartItems{
@@ -146,10 +146,11 @@ header{
     text-align: center;
     letter-spacing:1px;
      color:#fcd199;
-    font-size:20px;
+    font-size:17px;
 }
 .january{
     margin-top:50px;
+    font-size:17px;
 }
 .inputDiv{
     /* background:green; */
@@ -199,9 +200,9 @@ header{
     -moz-appearance: none;
     appearance: none;
     background-color: #D16432;
-    border-top:2px solid  rgba(255, 255, 179, 0.8);
-    border-right:2px solid  rgba(255, 255, 179, 0.8);
-    border-bottom:2px solid  rgba(255, 255, 179, 0.8);
+    border-top:2px solid  #fcd199;
+    border-right:2px solid  #fcd199;
+    border-bottom:2px solid  #fcd199;
     border-left:none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -378,20 +379,22 @@ a.active{
     .rotatedLogo{
         margin-left: auto;
         margin-right: auto;
-        margin-top:20%;
+        margin-top:15%;
     }
     .accesoriesDiv{
-        margin-top:20%;
+        margin-top:18%;
         /* background:blue; */
         width: 100%;
     }
     .accesoriesDiv h3{
         width: 100%;
         /* background:aqua; */
+        font-size:20px;
+        letter-spacing:2px;
         text-align: center;
     }
     .goodHealthDiv{
-        margin-top:10%;
+        margin-top:5%;
         /* background:blue; */
         width: 100%;
     }
@@ -402,7 +405,7 @@ a.active{
         margin-right: none;
     }
     .january{
-        margin-top:30%
+        margin-top:15%
     }
     .inputDiv{
         width: 100%;
