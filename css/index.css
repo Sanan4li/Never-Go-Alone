@@ -64,6 +64,7 @@ header{
     margin-right: 4%;
 }
 .middleLogo p{
+    display:none;
     letter-spacing: 12px;
 }
 .cartItems{
@@ -83,18 +84,40 @@ header{
 }
 
 /*===== main area === */
-.rotatedLogo {
-    text-align: center;
+.rotatedLogoParent {
+    /* text-align: center; */
     /* background:rgb(59, 59, 71); */
     margin-top:2%;
     width: 93%;
     margin-left: auto;
     margin-right: auto;
+    display:flex;
+    display: -webkit-flex;
+    /* align-items: center; */
+    /* -webkit-align-items:center; */
 }
-.rotatedLogo img{
+.verticalLogo{
+    /* background:green; */
+    width:34%;
+    margin-top:5%;
+}
+.verticalLogo img{
+    /* background:black; */
+    margin-left:2%;
+}
+.rotatedLogo{
+    /* background:blue; */
+    width:33%;
+    text-align: center;
+}
+.testing{
+    /* background:aqua; */
+    width:33%;
+}
+ .animationImg{
     margin-top:9%;
     /* background:rgb(255, 255, 255); */
-    -webkit-animation: rotation 6s infinite linear;
+    -webkit-animation: rotation 10s infinite linear;
 }
 .accesoriesDiv{
     margin-top: 5%;
@@ -103,35 +126,36 @@ header{
 .accesoriesDiv p {
     /* background:gray; */
     font-family: "avenir";
-    font-size:33px;
+    font-size:25px;
     color:#ffffb3;
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 40px;
-    width:55%;
+    width:50%;
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    letter-spacing:10px;
+    letter-spacing:8px;
 }
 .goodHealthDiv p{
     /* background:blue; */
     width:36%;
     margin-left:auto;
     margin-right: auto;
-    font-family: "cardinal";
+    font-family: "avenir";
     text-align: center;
+    letter-spacing:1px;
     color: rgba(255, 255, 179, 0.8);
-    font-size:22px;
+    font-size:20px;
 }
 .january{
-    margin-top:-20px;
+    margin-top:50px;
 }
 .inputDiv{
     /* background:green; */
     min-height: 50px;
     display:flex;
     display: -webkit-flex;
-    margin-top:50px;
+    margin-top:10px;
     align-items:center;
     -webkit-align-items:center;
 }
@@ -148,7 +172,7 @@ header{
     padding:15px;
     background:none;
     width:60%;
-    border:1px solid rgba(255, 255, 179, 0.8);
+    border:2px solid rgba(255, 255, 179, 0.8);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     color:#ffffb3;
@@ -160,18 +184,24 @@ header{
 }
 .inputDiv form input[type="email"]::placeholder{
     color: rgba(255, 255, 179, 0.6);
+    font-family: "avenir";
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .inputDiv form input[type="submit"]{
-    padding:17px;
+    padding:15px;
     background:none;
     width:28%;
-    margin-left:-5px;
+    margin-left:-6px;
     color:#ffffb3;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background-color: #D16432;
-    border:none;
+    border-top:2px solid  rgba(255, 255, 179, 0.8);
+    border-right:2px solid  rgba(255, 255, 179, 0.8);
+    border-bottom:2px solid  rgba(255, 255, 179, 0.8);
+    border-left:none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -179,10 +209,19 @@ header{
   cursor:pointer;
   background-color: #c35d2e;
 }
-
+.trademark{
+    text-align: center;
+    margin-top:20%;
+}
+.trademarkText p{
+    font-family: "avenir";
+    letter-spacing: 14px;
+    color:#ffffb3;
+    font-weight: bold;
+}
 .iconsDiv{
     /* background:blue; */
-    margin-top:28%;
+    margin-top:3%;
     display:flex;
     display: -webkit-flex;
 }
@@ -252,13 +291,16 @@ a.active{
     padding:5px;
     /* background-color:aqua; */
     text-align: center;
-    margin-bottom: 20px;
+    margin-top:0.5%;
+    color:#ffffb3 !important;
+    /* margin-bottom: 20px; */
    
 }
 .policyLinks a{
     margin:5px;
     color: #FCD298;
     font-family: "avenir";
+    font-size: 15px;
 }
 
 
@@ -266,10 +308,10 @@ a.active{
 
 @-webkit-keyframes rotation {
     from {
-            -webkit-transform: rotate(359deg);
+            -webkit-transform: rotate(0deg);
     }
     to {
-            -webkit-transform: rotate(0deg);
+            -webkit-transform: rotate(359deg);
     }
 }
 
@@ -285,6 +327,10 @@ a.active{
     }
     .accesoriesDiv p{
         width: 50%;
+    }
+    .verticalLogo img{
+        /* background:black; */
+        margin-left:1.5%;
     }
   }
 @media only screen and (max-width: 600px) {
@@ -304,8 +350,18 @@ a.active{
         width:25%;
         
     }
-   
+   .middleLogo{
+       /* background:blue; */
+       width:100%;
+   }
+   .cartItems{
+       display:none;
+   }
     .middleLogo p{
+        display:block;
+        /* background:green; */
+    }
+    .verticalLogo{
         display:none;
     }
     .cartItems{
@@ -313,9 +369,15 @@ a.active{
         /* background:blue; */
        margin-right: 5%;
     }
-    .rotatedLogo{
+    .rotatedLogoParent{
         /* background:gray; */
         width: 100%;
+       
+    }
+    .rotatedLogo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5%;
     }
     .accesoriesDiv{
         /* background:blue; */
